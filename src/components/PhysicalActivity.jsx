@@ -9,7 +9,7 @@ const PhysicalActivity = () => {
     <div className="my-2  w-100">
       <div className="w-100 d-flex flex-column align-items-center justify-content-center">
         <h2 className="my-5">Highlights</h2>
-        <div className="row">
+        <div className="d-flex flex-wrap allign-items-center justify-content-center">
           {!activities?.length > 0
             ? "Loading..."
             : activities?.map((each) => (

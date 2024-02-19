@@ -70,6 +70,13 @@ function MenuBar() {
       fetchData: () => dispatch(getLake()),
     },
   ];
+  const scrollToBottom = () => {
+    window.scrollTo({
+      top: document.body.scrollHeight,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <div className="p-2">
       <div className="d-flex justify-content-between flex-wrap gap-3 px-5 w-100">
@@ -86,6 +93,7 @@ function MenuBar() {
               console.log("first");
               each?.fetchData();
               setSelectedMenu(each?.id);
+              scrollToBottom();
             }}
           >
             <p
