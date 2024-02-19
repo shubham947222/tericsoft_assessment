@@ -4,6 +4,8 @@
       "id": 1,
       "name": "Day 1 Yoga",
       "feature": "Heats",
+      "type": "Mixed",
+
       "imageLink": "https://img.freepik.com/premium-photo/woman-doing-yoga-beach-with-mountain-background_865967-25537.jpg",
 
       "time": "1:12"
@@ -12,6 +14,8 @@
       "id": 2,
       "name": "Day 2 Yoga",
       "feature": "Heats",
+      "type": "Hightight",
+
       "imageLink": "https://img.freepik.com/premium-photo/woman-doing-yoga-beach-with-mountain-background_865967-25537.jpg",
 
       "time": "2:13"
@@ -20,6 +24,8 @@
       "id": 3,
       "name": "Day 3 Yoga",
       "feature": "SEMI'S",
+      "type": "Mixed",
+
       "imageLink": "https://img.freepik.com/premium-photo/woman-doing-yoga-beach-with-mountain-background_865967-25537.jpg",
 
       "time": "3:14"
@@ -30,6 +36,7 @@
       "id": 1,
       "name": "Day 1 armoury",
       "feature": "Heats",
+      "type": "Hightight",
       "imageLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7AVrEnlGvWUvY-Rku99lnn-sgTVCJFUP5Dg&usqp=CAU",
 
       "time": "1:12"
@@ -38,6 +45,8 @@
       "id": 2,
       "name": "Day 2 armoury",
       "feature": "Heats",
+      "type": "Mixed",
+
       "imageLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7AVrEnlGvWUvY-Rku99lnn-sgTVCJFUP5Dg&usqp=CAU",
 
       "time": "2:13"
@@ -46,6 +55,8 @@
       "id": 3,
       "name": "Day 3 armoury",
       "feature": "SEMI'S",
+      "type": "Mixed",
+
       "imageLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7AVrEnlGvWUvY-Rku99lnn-sgTVCJFUP5Dg&usqp=CAU",
 
       "time": "3:14"
@@ -56,6 +67,8 @@
     {
       "id": 1,
       "name": "Day 1 BMX",
+      "type": "Mixed",
+
       "imageLink": "https://t3.ftcdn.net/jpg/02/10/15/16/360_F_210151642_NJWz5gHDFjDnHr1Uwe1S7ojhJOPN541J.jpg",
       "feature": "Heats",
       "time": "5:12"
@@ -63,6 +76,8 @@
     {
       "id": 2,
       "name": "Day 2 BMX",
+      "type": "Hightight",
+
       "imageLink": "https://img.freepik.com/free-photo/professional-cyclist-woman_23-2149703285.jpg?size=626&ext=jpg&ga=GA1.1.1700460183.1708300800&semt=sph",
       "feature": "Heats",
       "time": "5:13"
@@ -70,6 +85,8 @@
     {
       "id": 3,
       "name": "Day 3 BMX",
+      "type": "Hightight",
+
       "imageLink": "https://t3.ftcdn.net/jpg/02/10/15/16/360_F_210151642_NJWz5gHDFjDnHr1Uwe1S7ojhJOPN541J.jpg",
       "feature": "SEMI'S",
       "time": "5:14"
@@ -79,6 +96,8 @@
     {
       "id": 1,
       "name": "Swimm",
+      "type": "Hightight",
+
       "imageLink": "https://cdn.britannica.com/66/162466-131-47ADB66F/Man-butterfly-stroke-pool.jpg",
       "feature": "Heats",
       "time": "5:12"
@@ -86,6 +105,8 @@
     {
       "id": 2,
       "name": "Swimm",
+      "type": "Hightight",
+
       "imageLink": "https://cdn.britannica.com/66/162466-131-47ADB66F/Man-butterfly-stroke-pool.jpg",
       "feature": "Heats",
       "time": "5:13"
@@ -93,6 +114,8 @@
     {
       "id": 3,
       "name": "Swimm",
+      "type": "Hightight",
+
       "imageLink": "https://cdn.britannica.com/66/162466-131-47ADB66F/Man-butterfly-stroke-pool.jpg",
       "feature": "SEMI'S",
       "time": "5:14"
@@ -102,6 +125,8 @@
     {
       "id": 1,
       "name": "Eqestrian",
+      "type": "Hightight",
+
       "imageLink": "https://s1.1zoom.me/big0/75/Equestrian_sport__Horses_Run_Uniform_525152_1280x836.jpg",
       "feature": "Heats",
       "time": "5:12"
@@ -109,6 +134,8 @@
     {
       "id": 2,
       "name": "Eqestrian",
+      "type": "Mixed",
+
       "imageLink": "https://s1.1zoom.me/big0/75/Equestrian_sport__Horses_Run_Uniform_525152_1280x836.jpg",
       "feature": "Heats",
       "time": "5:13"
@@ -116,6 +143,8 @@
     {
       "id": 3,
       "name": "Eqestrian",
+      "type": "Mixed",
+
       "imageLink": "https://s1.1zoom.me/big0/75/Equestrian_sport__Horses_Run_Uniform_525152_1280x836.jpg",
       "feature": "SEMI'S",
       "time": "5:14"
@@ -125,6 +154,8 @@
     {
       "id": 1,
       "name": "Extreme",
+      "type": "Mixed",
+
       "imageLink": "https://media.gettyimages.com/id/547436912/photo/bungee-jumping.jpg?s=612x612&w=gi&k=20&c=IfFOLie1iBHNaciBzGBlEaDxJZxjhvVUPclqrARTZUQ=",
       "feature": "Heats",
       "time": "5:12"
@@ -132,6 +163,8 @@
     {
       "id": 2,
       "name": "Extreme",
+      "type": "Mixed",
+
       "imageLink": "https://media.gettyimages.com/id/547436912/photo/bungee-jumping.jpg?s=612x612&w=gi&k=20&c=IfFOLie1iBHNaciBzGBlEaDxJZxjhvVUPclqrARTZUQ=",
       "feature": "Heats",
       "time": "5:13"
@@ -139,6 +172,8 @@
     {
       "id": 3,
       "name": "Extreme",
+      "type": "Mixed",
+
       "imageLink": "https://media.gettyimages.com/id/547436912/photo/bungee-jumping.jpg?s=612x612&w=gi&k=20&c=IfFOLie1iBHNaciBzGBlEaDxJZxjhvVUPclqrARTZUQ=",
       "feature": "SEMI'S",
       "time": "5:14"
@@ -148,6 +183,8 @@
     {
       "id": 1,
       "name": "golf",
+      "type": "Mixed",
+
       "imageLink": "https://media.istockphoto.com/id/1347268401/photo/golf-ball-and-golf-club-in-beautiful-golf-course-at-sunset-background.webp?b=1&s=170667a&w=0&k=20&c=jvTZgYKJzZRgqaKAuzZkGVWNITNGAt3xPF3WLLZpxgM=",
       "feature": "Heats",
       "time": "5:12"
@@ -155,6 +192,8 @@
     {
       "id": 2,
       "name": "golf",
+      "type": "Mixed",
+
       "imageLink": "https://media.istockphoto.com/id/1347268401/photo/golf-ball-and-golf-club-in-beautiful-golf-course-at-sunset-background.webp?b=1&s=170667a&w=0&k=20&c=jvTZgYKJzZRgqaKAuzZkGVWNITNGAt3xPF3WLLZpxgM=",
       "feature": "Heats",
       "time": "5:13"
@@ -162,6 +201,8 @@
     {
       "id": 3,
       "name": "golf",
+      "type": "Hightight",
+
       "imageLink": "https://media.istockphoto.com/id/1347268401/photo/golf-ball-and-golf-club-in-beautiful-golf-course-at-sunset-background.webp?b=1&s=170667a&w=0&k=20&c=jvTZgYKJzZRgqaKAuzZkGVWNITNGAt3xPF3WLLZpxgM=",
       "feature": "SEMI'S",
       "time": "5:14"
@@ -171,6 +212,8 @@
     {
       "id": 1,
       "name": "Gymnastics",
+      "type": "Mixed",
+
       "imageLink": "https://cdn.pixabay.com/photo/2017/08/07/14/02/man-2604149_1280.jpg",
       "feature": "Heats",
       "time": "5:12"
@@ -178,6 +221,8 @@
     {
       "id": 2,
       "name": "Gymnastics",
+      "type": "Hightight",
+
       "imageLink": "https://cdn.pixabay.com/photo/2017/08/07/14/02/man-2604149_1280.jpg",
       "feature": "Heats",
       "time": "5:13"
@@ -185,6 +230,8 @@
     {
       "id": 3,
       "name": "Gymnastics",
+      "type": "Hightight",
+
       "imageLink": "https://cdn.pixabay.com/photo/2017/08/07/14/02/man-2604149_1280.jpg",
       "feature": "SEMI'S",
       "time": "5:14"
@@ -194,6 +241,8 @@
     {
       "id": 1,
       "name": "Lake",
+      "type": "Hightight",
+
       "imageLink": "https://images.pexels.com/photos/247600/pexels-photo-247600.jpeg?cs=srgb&dl=pexels-pixabay-247600.jpg&fm=jpg",
       "feature": "Heats",
       "time": "5:12"
@@ -201,6 +250,8 @@
     {
       "id": 2,
       "name": "Lake",
+      "type": "Hightight",
+
       "imageLink": "https://images.pexels.com/photos/247600/pexels-photo-247600.jpeg?cs=srgb&dl=pexels-pixabay-247600.jpg&fm=jpg",
       "feature": "Heats",
       "time": "5:13"
@@ -208,6 +259,8 @@
     {
       "id": 3,
       "name": "Lake",
+      "type": "Hightight",
+
       "imageLink": "https://images.pexels.com/photos/247600/pexels-photo-247600.jpeg?cs=srgb&dl=pexels-pixabay-247600.jpg&fm=jpg",
       "feature": "SEMI'S",
       "time": "5:14"

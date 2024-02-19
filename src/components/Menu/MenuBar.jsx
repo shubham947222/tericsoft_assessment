@@ -115,6 +115,8 @@ function MenuBar() {
               style={{
                 fontSize: "10px",
                 color: "red",
+                padding: 0,
+                marginTop: "-2px",
               }}
             >
               {each?.name === "Lake & Sea" ? "404" : ""}

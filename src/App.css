@@ -5,22 +5,22 @@
 .imgContainer {
   position: relative;
   width: 400px;
-  height: 200px;
+  height: 300px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  border-radius: 5%;
-  margin: 2px;
+  border-radius: 2%;
+  margin: 5px;
 }
 .overlay {
   position: absolute;
   bottom: 0;
   left: 0;
   width: 400px;
-  height: 200px;
-  border-radius: 5%;
+  height: 300px;
+  border-radius: 2%;
 
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.2);
   color: white;
   padding: 20px;
   box-sizing: border-box;
@@ -37,4 +37,23 @@
   margin: 0;
   right: 0;
   /* font-size: 24px; */
+}
+.card-bottom {
+  width: 100%;
+  color: #fff;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+
+  bottom: 0;
+  padding-bottom: 5px;
+  overflow-x: hidden;
+}
+
+button {
+  margin-left: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  background-color: #000;
+  opacity: 0.7;
 }

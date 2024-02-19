@@ -6,6 +6,8 @@ const initialState = [
     id: 1,
     name: "Demo",
     feature: "Heats",
+    type: "Mixed",
+
     imageLink:
       "https://buffer.com/library/content/images/size/w1200/2023/10/free-images.jpg",
 
@@ -14,6 +16,8 @@ const initialState = [
   {
     id: 2,
     name: "Initial",
+    type: "Mixed",
+
     feature: "Heats",
     imageLink:
       "https://buffer.com/library/content/images/size/w1200/2023/10/free-images.jpg",
@@ -23,6 +27,8 @@ const initialState = [
   {
     id: 3,
     name: "State",
+    type: "Mixed",
+
     feature: "SEMI'S",
     imageLink:
       "https://buffer.com/library/content/images/size/w1200/2023/10/free-images.jpg",

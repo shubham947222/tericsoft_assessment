@@ -20,10 +20,15 @@ const PhysicalActivity = () => {
                   backgroundImage: `url(${each?.imageLink})`,
                 }}
               >
-                <div class="overlay">
-                  <div className="d-flex justify-content-between">
-                    <h5>{each?.name}</h5>
-                    <p>{each?.time}</p>
+                <div class="overlay"></div>
+                <div className="card-bottom">
+                  <div className="d-flex justify-content-between w-100 align-items-center mx-2 p-0">
+                    <h5 className="text-white">{each?.name}</h5>
+                    <p className="mx-3">{each?.time}</p>
+                  </div>
+                  <div className="d-flex gap-2">
+                    <button>{each?.feature}</button>
+                    <button>{each?.type}</button>
                   </div>
                 </div>
               </div>
