@@ -103,7 +103,22 @@ function MenuBar() {
             >
               {each?.icon}
             </p>
-            <p className="text-white">{each?.name}</p>
+            <p
+              className="p-0 m-0"
+              style={{
+                color: each?.name === "Lake & Sea" ? "red" : "#ffffff",
+              }}
+            >
+              {each?.name}
+            </p>
+            <p
+              style={{
+                fontSize: "10px",
+                color: "red",
+              }}
+            >
+              {each?.name === "Lake & Sea" ? "404" : ""}
+            </p>
           </div>
         ))}
       </div>

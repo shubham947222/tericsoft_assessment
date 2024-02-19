@@ -122,7 +122,7 @@ export const getLake = createAsyncThunk("activityList/getLake", async () => {
   console.log(data, "data ");
   return new Promise((resolve, reject) => {
     setTimeout(() => {
-      resolve(data);
+      reject(data);
     }, 1000);
   });
 });
@@ -137,6 +137,7 @@ const activityListSlice = createSlice({
     [getFeatured.fulfilled]: (state, action) => {
       //If we have to totally replace the existing array:
       state.activities = action.payload?.featured;
+      state.status = true;
 
       //if we want to add the json to an existing array
       console.log("action", action);
@@ -153,6 +154,7 @@ const activityListSlice = createSlice({
     [getAquatics.fulfilled]: (state, action) => {
       //If we have to totally replace the existing array:
       state.activities = action.payload?.aquatics;
+      state.status = true;
 
       //if we want to add the json to an existing array
       console.log("action", action);
@@ -160,6 +162,7 @@ const activityListSlice = createSlice({
     },
     [getCycling.fulfilled]: (state, action) => {
       state.activities = action.payload?.cycling;
+      state.status = true;
 
       //if we want to add the json to an existing array
       console.log("action", action);
@@ -167,6 +170,7 @@ const activityListSlice = createSlice({
     },
     [getEqestrian.fulfilled]: (state, action) => {
       state.activities = action.payload?.eqestrian;
+      state.status = true;
 
       //if we want to add the json to an existing array
       console.log("action", action);
@@ -174,6 +178,7 @@ const activityListSlice = createSlice({
     },
     [getExtreme.fulfilled]: (state, action) => {
       state.activities = action.payload?.extreme;
+      state.status = true;
 
       //if we want to add the json to an existing array
       console.log("action", action);
@@ -182,6 +187,7 @@ const activityListSlice = createSlice({
 
     [getGolf.fulfilled]: (state, action) => {
       state.activities = action.payload?.golf;
+      state.status = true;
 
       //if we want to add the json to an existing array
       console.log("action", action);
@@ -190,6 +196,7 @@ const activityListSlice = createSlice({
 
     [getGymnastics.fulfilled]: (state, action) => {
       state.activities = action.payload?.gymnastics;
+      state.status = true;
 
       //if we want to add the json to an existing array
       console.log("action", action);
@@ -198,6 +205,7 @@ const activityListSlice = createSlice({
 
     [getLake.fulfilled]: (state, action) => {
       state.activities = action.payload?.lake;
+      state.status = true;
 
       //if we want to add the json to an existing array
       console.log("action", action);
@@ -207,9 +215,9 @@ const activityListSlice = createSlice({
     // [getCycling.pending]: (state) => {
     //   state.status = "Fetching todos. Please wait a moment...";
     // },
-    // [getCycling.rejected]: (state) => {
-    //   state.status = "Failed to fetch data...";
-    // },
+    [getLake.rejected]: (state) => {
+      state.status = 404;
+    },
   },
 });
 
