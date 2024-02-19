@@ -1,0 +1,52 @@
+{
+  "featured": [
+    {
+      "id": 1,
+      "name": "Day 1 Yoga",
+      "feature": "Heats",
+      "imageLink": "https://img.freepik.com/premium-photo/woman-doing-yoga-beach-with-mountain-background_865967-25537.jpg",
+
+      "time": "1:12"
+    },
+    {
+      "id": 2,
+      "name": "Day 2 Yoga",
+      "feature": "Heats",
+      "imageLink": "https://img.freepik.com/premium-photo/woman-doing-yoga-beach-with-mountain-background_865967-25537.jpg",
+
+      "time": "2:13"
+    },
+    {
+      "id": 3,
+      "name": "Day 3 Yoga",
+      "feature": "SEMI'S",
+      "imageLink": "https://img.freepik.com/premium-photo/woman-doing-yoga-beach-with-mountain-background_865967-25537.jpg",
+
+      "time": "3:14"
+    }
+  ],
+
+  "cycling": [
+    {
+      "id": 1,
+      "name": "Day 1 BMX",
+      "imageLink": "https://t3.ftcdn.net/jpg/02/10/15/16/360_F_210151642_NJWz5gHDFjDnHr1Uwe1S7ojhJOPN541J.jpg",
+      "feature": "Heats",
+      "time": "5:12"
+    },
+    {
+      "id": 2,
+      "name": "Day 2 BMX",
+      "imageLink": "https://img.freepik.com/free-photo/professional-cyclist-woman_23-2149703285.jpg?size=626&ext=jpg&ga=GA1.1.1700460183.1708300800&semt=sph",
+      "feature": "Heats",
+      "time": "5:13"
+    },
+    {
+      "id": 3,
+      "name": "Day 3 BMX",
+      "imageLink": "https://t3.ftcdn.net/jpg/02/10/15/16/360_F_210151642_NJWz5gHDFjDnHr1Uwe1S7ojhJOPN541J.jpg",
+      "feature": "SEMI'S",
+      "time": "5:14"
+    }
+  ]
+}
