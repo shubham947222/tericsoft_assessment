@@ -1,14 +1,9 @@
 import { useSelector, useDispatch } from "react-redux";
-import { getCycling, getFeatured } from "../redux/activityListSlice";
 import { useState } from "react";
 const PhysicalActivity = () => {
-  const dispatch = useDispatch();
-  const [selectedMenu, setSelectedMenu] = useState(null);
   const { activities } = useSelector((state) => {
-    console.log(state, "state from activity list");
     return state.activityList;
   });
-  console.log(activities, "activities");
 
   return (
     <div className="my-2  w-100">

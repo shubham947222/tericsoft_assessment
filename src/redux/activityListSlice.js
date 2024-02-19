@@ -30,17 +30,6 @@ const initialState = [
     time: "3:14",
   },
 ];
-export const getCycling = createAsyncThunk(
-  "activityList/getCycling",
-  async () => {
-    console.log(data, "data ");
-    return new Promise((resolve, reject) => {
-      setTimeout(() => {
-        resolve(data);
-      }, 1000);
-    });
-  }
-);
 export const getFeatured = createAsyncThunk(
   "activityList/getFeatured",
   async () => {
@@ -52,6 +41,92 @@ export const getFeatured = createAsyncThunk(
     });
   }
 );
+export const getArmoury = createAsyncThunk(
+  "activityList/getArmoury",
+  async () => {
+    console.log(data, "data of getFeatured");
+    return new Promise((resolve, reject) => {
+      setTimeout(() => {
+        resolve(data);
+      }, 1000);
+    });
+  }
+);
+export const getAquatics = createAsyncThunk(
+  "activityList/getAquatics",
+  async () => {
+    console.log(data, "data of getFeatured");
+    return new Promise((resolve, reject) => {
+      setTimeout(() => {
+        resolve(data);
+      }, 1000);
+    });
+  }
+);
+export const getCycling = createAsyncThunk(
+  "activityList/getCycling",
+  async () => {
+    console.log(data, "data ");
+    return new Promise((resolve, reject) => {
+      setTimeout(() => {
+        resolve(data);
+      }, 1000);
+    });
+  }
+);
+export const getEqestrian = createAsyncThunk(
+  "activityList/getEqestrian",
+  async () => {
+    console.log(data, "data ");
+    return new Promise((resolve, reject) => {
+      setTimeout(() => {
+        resolve(data);
+      }, 1000);
+    });
+  }
+);
+
+export const getExtreme = createAsyncThunk(
+  "activityList/getExtreme",
+  async () => {
+    console.log(data, "data ");
+    return new Promise((resolve, reject) => {
+      setTimeout(() => {
+        resolve(data);
+      }, 1000);
+    });
+  }
+);
+export const getGolf = createAsyncThunk("activityList/getGolf", async () => {
+  console.log(data, "data ");
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      resolve(data);
+    }, 1000);
+  });
+});
+
+export const getGymnastics = createAsyncThunk(
+  "activityList/getGymnastics",
+  async () => {
+    console.log(data, "data ");
+    return new Promise((resolve, reject) => {
+      setTimeout(() => {
+        resolve(data);
+      }, 1000);
+    });
+  }
+);
+
+export const getLake = createAsyncThunk("activityList/getLake", async () => {
+  console.log(data, "data ");
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      resolve(data);
+    }, 1000);
+  });
+});
+
 const activityListSlice = createSlice({
   name: "activityList",
   initialState: {
@@ -59,6 +134,30 @@ const activityListSlice = createSlice({
     status: null,
   },
   extraReducers: {
+    [getFeatured.fulfilled]: (state, action) => {
+      //If we have to totally replace the existing array:
+      state.activities = action.payload?.featured;
+
+      //if we want to add the json to an existing array
+      console.log("action", action);
+      console.log("state", state);
+    },
+    [getArmoury.fulfilled]: (state, action) => {
+      //If we have to totally replace the existing array:
+      state.activities = action.payload?.armoury;
+
+      //if we want to add the json to an existing array
+      console.log("action", action);
+      console.log("state", state);
+    },
+    [getAquatics.fulfilled]: (state, action) => {
+      //If we have to totally replace the existing array:
+      state.activities = action.payload?.aquatics;
+
+      //if we want to add the json to an existing array
+      console.log("action", action);
+      console.log("state", state);
+    },
     [getCycling.fulfilled]: (state, action) => {
       state.activities = action.payload?.cycling;
 
@@ -66,9 +165,39 @@ const activityListSlice = createSlice({
       console.log("action", action);
       console.log("state", state);
     },
-    [getFeatured.fulfilled]: (state, action) => {
-      //If we have to totally replace the existing array:
-      state.activities = action.payload?.featured;
+    [getEqestrian.fulfilled]: (state, action) => {
+      state.activities = action.payload?.eqestrian;
+
+      //if we want to add the json to an existing array
+      console.log("action", action);
+      console.log("state", state);
+    },
+    [getExtreme.fulfilled]: (state, action) => {
+      state.activities = action.payload?.extreme;
+
+      //if we want to add the json to an existing array
+      console.log("action", action);
+      console.log("state", state);
+    },
+
+    [getGolf.fulfilled]: (state, action) => {
+      state.activities = action.payload?.golf;
+
+      //if we want to add the json to an existing array
+      console.log("action", action);
+      console.log("state", state);
+    },
+
+    [getGymnastics.fulfilled]: (state, action) => {
+      state.activities = action.payload?.gymnastics;
+
+      //if we want to add the json to an existing array
+      console.log("action", action);
+      console.log("state", state);
+    },
+
+    [getLake.fulfilled]: (state, action) => {
+      state.activities = action.payload?.lake;
 
       //if we want to add the json to an existing array
       console.log("action", action);

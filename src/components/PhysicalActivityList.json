@@ -25,6 +25,32 @@
       "time": "3:14"
     }
   ],
+  "armoury": [
+    {
+      "id": 1,
+      "name": "Day 1 armoury",
+      "feature": "Heats",
+      "imageLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7AVrEnlGvWUvY-Rku99lnn-sgTVCJFUP5Dg&usqp=CAU",
+
+      "time": "1:12"
+    },
+    {
+      "id": 2,
+      "name": "Day 2 armoury",
+      "feature": "Heats",
+      "imageLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7AVrEnlGvWUvY-Rku99lnn-sgTVCJFUP5Dg&usqp=CAU",
+
+      "time": "2:13"
+    },
+    {
+      "id": 3,
+      "name": "Day 3 armoury",
+      "feature": "SEMI'S",
+      "imageLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7AVrEnlGvWUvY-Rku99lnn-sgTVCJFUP5Dg&usqp=CAU",
+
+      "time": "3:14"
+    }
+  ],
 
   "cycling": [
     {
@@ -45,6 +71,144 @@
       "id": 3,
       "name": "Day 3 BMX",
       "imageLink": "https://t3.ftcdn.net/jpg/02/10/15/16/360_F_210151642_NJWz5gHDFjDnHr1Uwe1S7ojhJOPN541J.jpg",
+      "feature": "SEMI'S",
+      "time": "5:14"
+    }
+  ],
+  "aquatics": [
+    {
+      "id": 1,
+      "name": "Swimm",
+      "imageLink": "https://cdn.britannica.com/66/162466-131-47ADB66F/Man-butterfly-stroke-pool.jpg",
+      "feature": "Heats",
+      "time": "5:12"
+    },
+    {
+      "id": 2,
+      "name": "Swimm",
+      "imageLink": "https://cdn.britannica.com/66/162466-131-47ADB66F/Man-butterfly-stroke-pool.jpg",
+      "feature": "Heats",
+      "time": "5:13"
+    },
+    {
+      "id": 3,
+      "name": "Swimm",
+      "imageLink": "https://cdn.britannica.com/66/162466-131-47ADB66F/Man-butterfly-stroke-pool.jpg",
+      "feature": "SEMI'S",
+      "time": "5:14"
+    }
+  ],
+  "eqestrian": [
+    {
+      "id": 1,
+      "name": "Eqestrian",
+      "imageLink": "https://s1.1zoom.me/big0/75/Equestrian_sport__Horses_Run_Uniform_525152_1280x836.jpg",
+      "feature": "Heats",
+      "time": "5:12"
+    },
+    {
+      "id": 2,
+      "name": "Eqestrian",
+      "imageLink": "https://s1.1zoom.me/big0/75/Equestrian_sport__Horses_Run_Uniform_525152_1280x836.jpg",
+      "feature": "Heats",
+      "time": "5:13"
+    },
+    {
+      "id": 3,
+      "name": "Eqestrian",
+      "imageLink": "https://s1.1zoom.me/big0/75/Equestrian_sport__Horses_Run_Uniform_525152_1280x836.jpg",
+      "feature": "SEMI'S",
+      "time": "5:14"
+    }
+  ],
+  "extreme": [
+    {
+      "id": 1,
+      "name": "Extreme",
+      "imageLink": "https://media.gettyimages.com/id/547436912/photo/bungee-jumping.jpg?s=612x612&w=gi&k=20&c=IfFOLie1iBHNaciBzGBlEaDxJZxjhvVUPclqrARTZUQ=",
+      "feature": "Heats",
+      "time": "5:12"
+    },
+    {
+      "id": 2,
+      "name": "Extreme",
+      "imageLink": "https://media.gettyimages.com/id/547436912/photo/bungee-jumping.jpg?s=612x612&w=gi&k=20&c=IfFOLie1iBHNaciBzGBlEaDxJZxjhvVUPclqrARTZUQ=",
+      "feature": "Heats",
+      "time": "5:13"
+    },
+    {
+      "id": 3,
+      "name": "Extreme",
+      "imageLink": "https://media.gettyimages.com/id/547436912/photo/bungee-jumping.jpg?s=612x612&w=gi&k=20&c=IfFOLie1iBHNaciBzGBlEaDxJZxjhvVUPclqrARTZUQ=",
+      "feature": "SEMI'S",
+      "time": "5:14"
+    }
+  ],
+  "golf": [
+    {
+      "id": 1,
+      "name": "golf",
+      "imageLink": "https://media.istockphoto.com/id/1347268401/photo/golf-ball-and-golf-club-in-beautiful-golf-course-at-sunset-background.webp?b=1&s=170667a&w=0&k=20&c=jvTZgYKJzZRgqaKAuzZkGVWNITNGAt3xPF3WLLZpxgM=",
+      "feature": "Heats",
+      "time": "5:12"
+    },
+    {
+      "id": 2,
+      "name": "golf",
+      "imageLink": "https://media.istockphoto.com/id/1347268401/photo/golf-ball-and-golf-club-in-beautiful-golf-course-at-sunset-background.webp?b=1&s=170667a&w=0&k=20&c=jvTZgYKJzZRgqaKAuzZkGVWNITNGAt3xPF3WLLZpxgM=",
+      "feature": "Heats",
+      "time": "5:13"
+    },
+    {
+      "id": 3,
+      "name": "golf",
+      "imageLink": "https://media.istockphoto.com/id/1347268401/photo/golf-ball-and-golf-club-in-beautiful-golf-course-at-sunset-background.webp?b=1&s=170667a&w=0&k=20&c=jvTZgYKJzZRgqaKAuzZkGVWNITNGAt3xPF3WLLZpxgM=",
+      "feature": "SEMI'S",
+      "time": "5:14"
+    }
+  ],
+  "gymnastics": [
+    {
+      "id": 1,
+      "name": "Gymnastics",
+      "imageLink": "https://cdn.pixabay.com/photo/2017/08/07/14/02/man-2604149_1280.jpg",
+      "feature": "Heats",
+      "time": "5:12"
+    },
+    {
+      "id": 2,
+      "name": "Gymnastics",
+      "imageLink": "https://cdn.pixabay.com/photo/2017/08/07/14/02/man-2604149_1280.jpg",
+      "feature": "Heats",
+      "time": "5:13"
+    },
+    {
+      "id": 3,
+      "name": "Gymnastics",
+      "imageLink": "https://cdn.pixabay.com/photo/2017/08/07/14/02/man-2604149_1280.jpg",
+      "feature": "SEMI'S",
+      "time": "5:14"
+    }
+  ],
+  "lake": [
+    {
+      "id": 1,
+      "name": "Lake",
+      "imageLink": "https://images.pexels.com/photos/247600/pexels-photo-247600.jpeg?cs=srgb&dl=pexels-pixabay-247600.jpg&fm=jpg",
+      "feature": "Heats",
+      "time": "5:12"
+    },
+    {
+      "id": 2,
+      "name": "Lake",
+      "imageLink": "https://images.pexels.com/photos/247600/pexels-photo-247600.jpeg?cs=srgb&dl=pexels-pixabay-247600.jpg&fm=jpg",
+      "feature": "Heats",
+      "time": "5:13"
+    },
+    {
+      "id": 3,
+      "name": "Lake",
+      "imageLink": "https://images.pexels.com/photos/247600/pexels-photo-247600.jpeg?cs=srgb&dl=pexels-pixabay-247600.jpg&fm=jpg",
       "feature": "SEMI'S",
       "time": "5:14"
     }

@@ -1,6 +1,16 @@
 import { useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { getCycling, getFeatured } from "../../redux/activityListSlice";
+import {
+  getAquatics,
+  getArmoury,
+  getCycling,
+  getEqestrian,
+  getExtreme,
+  getFeatured,
+  getGolf,
+  getGymnastics,
+  getLake,
+} from "../../redux/activityListSlice";
 function MenuBar() {
   const dispatch = useDispatch();
   const [selectedMenu, setSelectedMenu] = useState(null);
@@ -11,26 +21,53 @@ function MenuBar() {
       icon: <i className="far fa-star p-0 m-0"></i>,
       fetchData: () => dispatch(getFeatured()),
     },
-    { id: 2, name: "Armoury", icon: <i class="fas fa-running"></i> },
-    { id: 3, name: "Aquatics", icon: <i class="fas fa-swimmer"></i> },
+    {
+      id: 2,
+      name: "Armoury",
+      icon: <i class="fas fa-running"></i>,
+      fetchData: () => dispatch(getArmoury()),
+    },
+    {
+      id: 3,
+      name: "Aquatics",
+      icon: <i class="fas fa-swimmer"></i>,
+      fetchData: () => dispatch(getAquatics()),
+    },
     {
       id: 4,
       name: "Cycling",
       icon: <i class="fas fa-biking"></i>,
       fetchData: () => dispatch(getCycling()),
     },
-    { id: 5, name: "Eqestrian", icon: <i class="fas fa-horse"></i> },
-    { id: 6, name: "Extreme", icon: <i class="fas fa-hiking"></i> },
-    { id: 7, name: "Golf", icon: <i class="fas fa-golf-ball"></i> },
+    {
+      id: 5,
+      name: "Eqestrian",
+      icon: <i class="fas fa-horse"></i>,
+      fetchData: () => dispatch(getEqestrian()),
+    },
+    {
+      id: 6,
+      name: "Extreme",
+      icon: <i class="fas fa-hiking"></i>,
+      fetchData: () => dispatch(getExtreme()),
+    },
+    {
+      id: 7,
+      name: "Golf",
+      icon: <i class="fas fa-golf-ball"></i>,
+      fetchData: () => dispatch(getGolf()),
+    },
     {
       id: 8,
       name: "Gymnastics",
       icon: <i class="fas fa-dumbbell"></i>,
+      fetchData: () => dispatch(getGymnastics()),
     },
     {
       id: 9,
       name: "Lake & Sea",
       icon: <i class="fas fa-ship"></i>,
+      fetchData: () => dispatch(getLake()),
     },
   ];
   return (
