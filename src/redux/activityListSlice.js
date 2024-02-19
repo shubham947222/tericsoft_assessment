@@ -141,28 +141,22 @@ const activityListSlice = createSlice({
   },
   extraReducers: {
     [getFeatured.fulfilled]: (state, action) => {
-      //If we have to totally replace the existing array:
       state.activities = action.payload?.featured;
       state.status = true;
 
-      //if we want to add the json to an existing array
       console.log("action", action);
       console.log("state", state);
     },
     [getArmoury.fulfilled]: (state, action) => {
-      //If we have to totally replace the existing array:
       state.activities = action.payload?.armoury;
 
-      //if we want to add the json to an existing array
       console.log("action", action);
       console.log("state", state);
     },
     [getAquatics.fulfilled]: (state, action) => {
-      //If we have to totally replace the existing array:
       state.activities = action.payload?.aquatics;
       state.status = true;
 
-      //if we want to add the json to an existing array
       console.log("action", action);
       console.log("state", state);
     },
@@ -170,7 +164,6 @@ const activityListSlice = createSlice({
       state.activities = action.payload?.cycling;
       state.status = true;
 
-      //if we want to add the json to an existing array
       console.log("action", action);
       console.log("state", state);
     },
@@ -178,7 +171,6 @@ const activityListSlice = createSlice({
       state.activities = action.payload?.eqestrian;
       state.status = true;
 
-      //if we want to add the json to an existing array
       console.log("action", action);
       console.log("state", state);
     },
@@ -186,7 +178,6 @@ const activityListSlice = createSlice({
       state.activities = action.payload?.extreme;
       state.status = true;
 
-      //if we want to add the json to an existing array
       console.log("action", action);
       console.log("state", state);
     },
@@ -195,7 +186,6 @@ const activityListSlice = createSlice({
       state.activities = action.payload?.golf;
       state.status = true;
 
-      //if we want to add the json to an existing array
       console.log("action", action);
       console.log("state", state);
     },
@@ -204,7 +194,6 @@ const activityListSlice = createSlice({
       state.activities = action.payload?.gymnastics;
       state.status = true;
 
-      //if we want to add the json to an existing array
       console.log("action", action);
       console.log("state", state);
     },
@@ -213,7 +202,6 @@ const activityListSlice = createSlice({
       state.activities = action.payload?.lake;
       state.status = true;
 
-      //if we want to add the json to an existing array
       console.log("action", action);
       console.log("state", state);
     },

@@ -1,8 +1,15 @@
-# React + Vite
+# Shubh React for Tericsoft
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+To run this project locally, follow these steps:
 
-Currently, two official plugins are available:
+Clone the Repository:git clone [https://github.com/shubham947222/tericsoft_assessment.git]
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Navigate to the Project Directory: cd <tericsoft_assessment>
+
+Install Dependencies: npm install
+
+Start the Development Server: npm run dev
+
+Once the server is running, you can access the project in your browser at http://localhost:5173 because I used Vite for fast refresh and less build time (or a different port if specified).
+
+That's it! You've successfully set up and run the project locally.
