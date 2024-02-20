@@ -1,5 +1,5 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
-import data from "../components/PhysicalActivityList.json";
+import data from "../data/PhysicalActivityList.json";
 
 const initialState = [
   {
@@ -149,23 +149,14 @@ const activityListSlice = createSlice({
     },
     [getArmoury.fulfilled]: (state, action) => {
       state.activities = action.payload?.armoury;
-
-      console.log("action", action);
-      console.log("state", state);
     },
     [getAquatics.fulfilled]: (state, action) => {
       state.activities = action.payload?.aquatics;
       state.status = true;
-
-      console.log("action", action);
-      console.log("state", state);
     },
     [getCycling.fulfilled]: (state, action) => {
       state.activities = action.payload?.cycling;
       state.status = true;
-
-      console.log("action", action);
-      console.log("state", state);
     },
     [getCycling.pending]: (state) => {
       state.activities = [];
@@ -175,42 +166,30 @@ const activityListSlice = createSlice({
     [getEqestrian.fulfilled]: (state, action) => {
       state.activities = action.payload?.eqestrian;
       state.status = true;
-      console.log("action", action);
-      console.log("state", state);
     },
     [getExtreme.fulfilled]: (state, action) => {
       state.activities = action.payload?.extreme;
       state.status = true;
-
-      console.log("action", action);
-      console.log("state", state);
     },
 
     [getGolf.fulfilled]: (state, action) => {
       state.activities = action.payload?.golf;
       state.status = true;
-
-      console.log("action", action);
-      console.log("state", state);
     },
 
     [getGymnastics.fulfilled]: (state, action) => {
       state.activities = action.payload?.gymnastics;
       state.status = true;
-
-      console.log("action", action);
-      console.log("state", state);
     },
 
     [getLake.fulfilled]: (state, action) => {
       state.activities = action.payload?.lake;
       state.status = true;
-
-      console.log("action", action);
-      console.log("state", state);
     },
 
     [getLake.rejected]: (state) => {
+      state.activities = [];
+
       state.status = 404;
     },
   },

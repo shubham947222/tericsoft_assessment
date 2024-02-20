@@ -108,20 +108,11 @@ function MenuBar() {
             <p
               className="p-0 m-0"
               style={{
-                color: each?.name === "Lake & Sea" ? "red" : "#ffffff",
+                // color: each?.name === "Lake & Sea" ? "red" : "#ffffff",
+                color: selectedMenu == each?.id ? "#ffffff" : "#000000",
               }}
             >
               {each?.name}
-            </p>
-            <p
-              style={{
-                fontSize: "10px",
-                color: "red",
-                padding: 0,
-                marginTop: "-2px",
-              }}
-            >
-              {each?.name === "Lake & Sea" ? "404" : ""}
             </p>
           </div>
         ))}

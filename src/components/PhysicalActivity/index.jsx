@@ -10,7 +10,9 @@ class PhysicalActivity extends React.Component {
       <div className="my-2 w-100">
         <div className="w-100 d-flex flex-column align-items-center justify-content-center">
           <div className="w-100 d-flex justify-content-around ">
-            <h2 className="my-5">Highlights</h2>
+            <h2 className="my-5">
+              {activities?.length > 0 ? "Highlights" : "No Highlights"}
+            </h2>
             {activities?.length > 0 && (
               <div className="my-2 border rounded p-1">
                 Note:-
