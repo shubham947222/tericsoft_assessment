@@ -43,7 +43,7 @@ export const getFeatured = createAsyncThunk(
     return new Promise((resolve, reject) => {
       setTimeout(() => {
         resolve(data);
-      }, 1000);
+      }, 300);
     });
   }
 );
@@ -54,7 +54,7 @@ export const getArmoury = createAsyncThunk(
     return new Promise((resolve, reject) => {
       setTimeout(() => {
         resolve(data);
-      }, 1000);
+      }, 300);
     });
   }
 );
@@ -65,7 +65,7 @@ export const getAquatics = createAsyncThunk(
     return new Promise((resolve, reject) => {
       setTimeout(() => {
         resolve(data);
-      }, 1000);
+      }, 300);
     });
   }
 );
@@ -76,7 +76,7 @@ export const getCycling = createAsyncThunk(
     return new Promise((resolve, reject) => {
       setTimeout(() => {
         resolve(data);
-      }, 1000);
+      }, 3000);
     });
   }
 );
@@ -87,7 +87,7 @@ export const getEqestrian = createAsyncThunk(
     return new Promise((resolve, reject) => {
       setTimeout(() => {
         resolve(data);
-      }, 1000);
+      }, 300);
     });
   }
 );
@@ -99,7 +99,7 @@ export const getExtreme = createAsyncThunk(
     return new Promise((resolve, reject) => {
       setTimeout(() => {
         resolve(data);
-      }, 1000);
+      }, 300);
     });
   }
 );
@@ -108,7 +108,7 @@ export const getGolf = createAsyncThunk("activityList/getGolf", async () => {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
       resolve(data);
-    }, 1000);
+    }, 300);
   });
 });
 
@@ -119,7 +119,7 @@ export const getGymnastics = createAsyncThunk(
     return new Promise((resolve, reject) => {
       setTimeout(() => {
         resolve(data);
-      }, 1000);
+      }, 300);
     });
   }
 );
@@ -129,7 +129,7 @@ export const getLake = createAsyncThunk("activityList/getLake", async () => {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
       reject(data);
-    }, 1000);
+    }, 300);
   });
 });
 
@@ -167,10 +167,14 @@ const activityListSlice = createSlice({
       console.log("action", action);
       console.log("state", state);
     },
+    [getCycling.pending]: (state) => {
+      state.activities = [];
+      state.status = "pending";
+    },
+
     [getEqestrian.fulfilled]: (state, action) => {
       state.activities = action.payload?.eqestrian;
       state.status = true;
-
       console.log("action", action);
       console.log("state", state);
     },
@@ -206,9 +210,6 @@ const activityListSlice = createSlice({
       console.log("state", state);
     },
 
-    // [getCycling.pending]: (state) => {
-    //   state.status = "Fetching todos. Please wait a moment...";
-    // },
     [getLake.rejected]: (state) => {
       state.status = 404;
     },

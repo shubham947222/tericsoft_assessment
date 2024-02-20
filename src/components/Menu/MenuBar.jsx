@@ -84,8 +84,10 @@ function MenuBar() {
           <div
             className="col- text-center p-2 rounded-circl th-pointer"
             style={{
-              backgroundColor: selectedMenu == each?.id ? "#b2cbf2" : "#d1dff6",
+              backgroundColor: selectedMenu != each?.id ? "#b2cbf2" : "#6488ea",
               borderRadius: "50%",
+              border: selectedMenu != each?.id ? "" : "4px solid grey",
+
               width: "100px",
               height: "100px",
             }}
